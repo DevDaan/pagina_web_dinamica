@@ -1,47 +1,47 @@
 module.exports = [
     {
         id: "HfkpxoJRdeU",
-        title: "Desabafando | DK47",
-        duration: "Duração: 4:57",
+        title: " DK47 | Desabafando",
+        duration: "Duração: 4:57min",
         watch: "Assistir",
         featured: true
     },
     {
         id: "W6BsvcWZ590",
-        title: "Do Alto do Morro | Dk47 e CesarMc",
-        duration: "Duração: 3:03",
+        title: "Dk47 e CesarMc | Do Alto do Morro ",
+        duration: "Duração: 3:03min",
         watch: "Assistir"
    
 
     },
     {
         id: "etZWWS8oEh0",
-        title: "Obstinado | Filipe Ret",
-        duration: "Duração: 4:12",
+        title: "Filipe Ret | Obstinado",
+        duration: "Duração: 4:12min",
         watch: "Assistir"
     
 
     },
     {
         id: "urh0_AGtNzg",
-        title: "Renascimento | Poetas no Topo",
-        duration: "Duração: 7:50",
+        title: "Poetas no Topo | Renascimento",
+        duration: "Duração: 7:50min",
         watch: "Assistir",
         featured: true
 
     },
     {
         id: "MkWMkYsGdf0",
-        title: "Fora da Matrix | DK47 e Xamã",
-        duration: "Duração: 2:04",
+        title: "DK47 e Xamã | Fora da Matrix",
+        duration: "Duração: 2:04min",
         watch: "Assistir",
         featured: true
 
     },
     {
         id: "-eTGY8D3wfI",
-        title: "Minha Última Letra | César Mc",
-        duration: "Duração: 4:40",
+        title: "César Mc | Minha Última Letra ",
+        duration: "Duração: 4:40min",
         watch: "Assistir"
       
 
