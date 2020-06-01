@@ -4,7 +4,12 @@ const routes = express.Router()
 
 
 routes.get('/', (req, res) =>{
-    res.send('HI')
+   res.render('about')
+})
+
+
+routes.get('/videos', (req, res) =>{
+    res.render('videos')
 })
 
 
