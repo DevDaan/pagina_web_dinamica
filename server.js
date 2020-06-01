@@ -2,6 +2,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require('./routes/routes')
 
+
 const server = express()
 
 
@@ -12,14 +13,17 @@ server.use(express.static('public')) //transformando a pasta public para utiliza
 
 
 //configurando o nunjucks
-server.set("view engine", "html")
+server.set("view engine", "njk")
 nunjucks.configure('views', {
-    express: server
+    express: server,
+    autoescape: false,
+    noCache: true
 })
 
 
 // chamando as rotas
 server.use(routes)
+
 
 
 //iniciando o servidor

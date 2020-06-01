@@ -7,7 +7,7 @@ for (let card of cards){
     card.addEventListener('click', () =>{
        const videoId = card.getAttribute("id")
        modalOverlay.classList.add('active')
-       modalOverlay.querySelector("iframe").src = `https://youtube.com/embed/${videoId}`
+       window.location.href = `/video?id=${videoId}`
     })
 }
 

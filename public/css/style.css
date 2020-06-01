@@ -115,6 +115,9 @@ footer {
 
 .card{
     background-color: var(--color-rocket);
+    display: grid;
+    cursor: pointer;
+    
 }
 
 .card_image-container img {
@@ -130,6 +133,7 @@ footer {
 .card_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 
 }
 
@@ -139,9 +143,7 @@ footer {
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
-    cursor: pointer;
 }
-
 
 
 
@@ -196,4 +198,48 @@ iframe {
     height: 90vh;
     position: absolute;
     top: 5vh;
+}
+
+
+
+/* ===========  FEATURED   ======== */
+.featured-wrapper{
+    position: relative;
+}
+
+.featured{
+    background-color: orangered;
+    padding: 2px 8px;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    border-radius: 10px;
+}
+
+
+
+
+/* ======== VIDEO PAGE ============ */
+
+.video{
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.video .carde {
+    cursor: initial;
+}
+
+.card_video-container  {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.card_video-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
